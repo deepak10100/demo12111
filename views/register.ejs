@@ -1,0 +1,31 @@
+<%- include("./header.ejs") %> 
+<div class="container">
+    <h1>Registor Page</h1>
+
+    <form class="row g-3" method="post">
+        <div class=" col-md-6">
+            <label for="fname" class="form-label">First Name</label>
+            <input type="text" name="fname" class="form-control" id="fname">
+          </div>
+          <div class="col-md-6">
+            <label for="lname" class="form-label">Last Name</label>
+            <input type="text" name="lname" class="form-control" id="lname">
+          </div>
+        <div class="col-12">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" name="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" name="pass" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label"> Conform Password</label>
+          <input type="password" name="cpass" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign Up</button>
+        </div>
+      </form>
+</div>
+<%- include("./footer.ejs") %> 
